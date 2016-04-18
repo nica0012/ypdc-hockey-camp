@@ -1,0 +1,538 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,300);
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #242424;
+    /*    background-color: #000;*/
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    /*    text-transform: uppercase;*/
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.thumbnail-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+strong{
+    font-weight: 700;
+}
+
+.modal-title{
+    text-align: left;
+}
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#alignLeft{
+    text-align: left;
+}
+
+.intro-text {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.team {
+    padding: 75px 0;
+}
+
+h6.description {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #999;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+}
+
+
+@media(min-width:768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: #9cb9de;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #9cb9de;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+    /*        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.54);*/
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255, 255, 255, .8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+.textWrap {
+    float: left;
+    margin-right: 20px;
+    width: 40%;
+}
+
+li a {
+    font-size: 14px;
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .3);
+        background: #000;
+    }
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(http://feelgrafix.com/data_images/out/9/831092-hockey-wallpaper.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.sticks {
+    width: 250px;
+    margin: 20px;
+    margin-top: 7rem;
+    /*
+    position: absolute;
+    text-align: center;
+*/
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+    /*    text-shadow: 2px 2px 0px #8195af;*/
+}
+
+.intro-sub {
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+    .intro .intro-body .intro-text {
+        font-size: 32px;
+    }
+}
+
+.btn-circle {
+    width: 60px;
+    height: 60px;
+    /*    margin-top: -30px;*/
+    /*    padding: 7px 16px;*/
+    /*
+    border: 3px solid #ffffff;
+    border-radius: 100%!important;
+*/
+    font-size: 30px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn-circle i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {
+    0% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.content-section {
+    padding-top: 20px;
+   
+}
+.content-section{
+        padding-top: 0px;
+
+}
+.team{
+    padding: 0;
+}
+.team-section {
+    width: 100%;
+    padding: 60px 0;
+    color: #fff;
+    background: url(../img/ice.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.clothingModalImg{
+    width: 100%;
+    margin: 0 auto;
+}
+#register{
+    padding: 0;
+}
+
+.register-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #ffffff;
+    background-color: #000000;
+    height:370px;
+    display: table;
+
+}
+#reg{
+        display: table-cell;  
+    vertical-align: middle;
+
+}
+
+
+
+#registerBtn{
+    background-color: #33c75f;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.thumbnail{
+    background-color: rgba(255, 255, 255, 0.78);
+}
+#bioBtn{
+    background-color: #000;
+    width: 40%;
+    padding: 10px;
+        margin-bottom: 10px;
+     border-radius: 5px;
+
+}
+#thumbFix{
+            margin-bottom: 10px;
+
+}
+
+#contact{
+/*    background-color: blue;*/
+    height: 300px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+   display: table;
+}
+#contact-vAlign{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#map {
+    width: 100%;
+    height: 200px;
+/*        margin-top: 120px;*/
+}
+
+.arena-section{
+    margin-bottom: 4rem;
+}
+
+@media(min-width:767px) {
+    #about {
+        padding-top: 100px;
+    }
+    .content-section {
+        /*        padding-top: 100px;*/
+    }
+    .download-section {
+        padding: 20px 0;
+    }
+    .items-section{
+        margin-top: -60px;
+        margin-bottom: 80px;
+        cursor: pointer;
+    }
+    #map {
+        height: 400px;
+        /*        margin-top: 200px;*/
+    }
+    
+    .arena-contain{
+        width: 80%;
+        margin-top: 2rem;
+    }
+    .team-contain{
+        width: 80%;
+    }
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: transparent;
+}
+
+
+/*
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #9cb9de;
+    outline: 0;
+    color: #000;
+    background-color: #9cb9de;
+}
+*/
+
+#social-media i{
+    font-size: 35px;
+}
+.twitter:hover,
+.twitter:focus {
+  
+    color: #55acee;
+}
+
+.facebook:hover,
+.facebook:focus {
+    color: #3b5998;
+}
+
+.instagram:hover,
+.instagram:focus {
+    color: #fff;
+    color: #125688;
+}
+
+ul.banner-social-buttons {
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+    .items-section{
+        margin-top: -30px;
+        margin-bottom: 50px;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #000;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255, 255, 255, .2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255, 255, 255, .2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255, 255, 255, .2);
+}
+
+
+/*///////////////////////*/
